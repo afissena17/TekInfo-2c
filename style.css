@@ -1,0 +1,34 @@
+body {
+    background-color: #f8f9fa; /* Warna latar belakang yang lebih lembut */
+}
+
+.card {
+    border: none; /* Menghilangkan border default */
+    border-radius: 10px; /* Sudut yang lebih lembut */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efek zoom pada hover */
+    transition: transform 0.3s ease; /* Transisi halus */
+}
+
+.hover-effect {
+    transition: transform 0.3s; /* Transisi untuk efek hover */
+}
+
+#Angka {
+    font-size: 80px; /* Ukuran font yang lebih kecil untuk responsif */
+    font-weight: bold;
+    color: #007bff; /* Warna teks yang lebih cerah */
+}
+
+#Tulisan {
+    font-size: 24px; /* Ukuran font yang lebih kecil untuk responsif */
+    font-weight: bold;
+    color: #343a40; /* Warna teks yang lebih gelap */
+}
+
+#pengumuman {
+    background-color: #e0f7fa; /* Warna latar belakang yang lebih cerah */
+    padding: 20px; /* Padding untuk ruang yang lebih baik */
+}
